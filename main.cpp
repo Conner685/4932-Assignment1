@@ -26,7 +26,7 @@ int main() {
 
         std::string output_filename = "Blended_t" + std::to_string(i) + ".jpg";
         cv::imwrite(output_filename, blendedImg);
-        std::cout << "img " << i << " created";
+        std::cout << "img " << i << " created" << std::endl;
     }
 
     return 0;
