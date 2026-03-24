@@ -11,14 +11,14 @@ int main() {
         std::string w1_filename = "W1.t" + std::to_string(i) + ".jpg";
 
         cv::Mat W0 = cv::imread(w0_filename);
-        cv::Mat W1 = cv::imread(w0_filename);
+        cv::Mat W1 = cv::imread(w1_filename);
 
         if (W0.empty() || W1.empty()) {
             std::cerr << "file not found" << std::endl;
             return -1;
         }
 
-        double alpha = static_cast<double>(i) / 8.0;
+        double alpha = static_cast<double>(i) / 9.0;
         double beta = 1.0 - alpha;
 
         cv::Mat blendedImg;
