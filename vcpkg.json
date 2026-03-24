@@ -1,0 +1,12 @@
+{
+  "name" : "assignment1",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "ed8445dd2a9ba44e0e3ace4e952b2e33130082d9",
+  "dependencies" : [ {
+    "name" : "vcpkg-cmake-config",
+    "version>=" : "2024-05-23"
+  }, {
+    "name" : "vcpkg-cmake",
+    "version>=" : "2024-04-23"
+  } ]
+}
